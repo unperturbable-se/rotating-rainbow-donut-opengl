@@ -59,4 +59,8 @@ This will:
 
 ---
 
-Let me know if you'd like to add a screenshot or GIF of the donut in action, or include license and contribution sections.
+## License
+
+This project is licensed under a modified [MIT License](LICENSE).  
+You are free to use and share the code, but **please give credit** unless you've made **significant** changes.
+
