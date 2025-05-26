@@ -59,4 +59,3 @@ This will:
 
 ---
 
-Let me know if you'd like to add a screenshot or GIF of the donut in action, or include license and contribution sections.
