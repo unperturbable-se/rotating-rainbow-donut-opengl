@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.10)
+project(openglcompile C CXX)
+
+# Add executable
+add_executable(openglcompile
+    main.cpp
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/GLAD/src/glad.c" #path to glad.c
+)
+
+# Include directories
+target_include_directories(openglcompile BEFORE PUBLIC
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/GLAD/include"   #path to glad.h
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/glfw/include"   #path to glfw.h
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/glm/include"    #path to glm.h
+    "C:/Users/Raedo/Documents/dev/projects/opengl project/headers" #project_path/headers
+)
+
+# Link libraries
+target_link_libraries(openglcompile
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/glfw/lib/libglfw3.a" #path to glfw/lib/libglfw3.a
+    "C:/Users/Raedo/Documents/dev/compilers/opengl/glm/lib/libglm.a"    #path to glm/lib/libglm.a
+    opengl32 
+)
