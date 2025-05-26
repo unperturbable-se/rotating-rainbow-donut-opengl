@@ -58,3 +58,7 @@ This will:
 * Skip full CMake reconfiguration
 
 ---
+## License
+
+This project is licensed under a modified [MIT License](LICENSE).  
+You are free to use and share the code, but **please give credit** unless you've made **significant** changes.
