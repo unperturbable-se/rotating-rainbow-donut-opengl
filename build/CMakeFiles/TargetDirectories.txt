@@ -1,3 +1,0 @@
-C:/Users/Raedo/Documents/dev/projects/opengl project/build/CMakeFiles/openglcompile.dir
-C:/Users/Raedo/Documents/dev/projects/opengl project/build/CMakeFiles/edit_cache.dir
-C:/Users/Raedo/Documents/dev/projects/opengl project/build/CMakeFiles/rebuild_cache.dir

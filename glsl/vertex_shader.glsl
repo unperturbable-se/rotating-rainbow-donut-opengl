@@ -10,7 +10,8 @@ uniform float uTime;
 out vec3 vertexColor;
 
 // Rainbow color function
-vec3 rainbow(float t) {
+vec3 rainbow(float t) 
+{
     float r = 0.5 + 0.5 * sin(6.2831 * t + 0.0);
     float g = 0.5 + 0.5 * sin(6.2831 * t + 2.0944); // 2π/3
     float b = 0.5 + 0.5 * sin(6.2831 * t + 4.1888); // 4π/3
