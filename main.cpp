@@ -7,6 +7,7 @@
 #include <glslFile.h>
 #include <vertexObject.h>
 #include <donut.h>
+#include <frameLimiter.h>
 
 using namespace std;
 using namespace custom;
@@ -17,6 +18,7 @@ int main()
     int width = 800, height = 800;
     Window window(width, height, "Donut");
     glfwMakeContextCurrent(window); // all operations will be performed on this window
+    glfwSwapInterval(1); //reduces the framerate to device default(enables vsync)
 
     // Load OpenGL functions
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))throw std::runtime_error("Failed to initialize GLAD");
@@ -45,6 +47,7 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {
+        FrameLimiter(25); //20fps speed
         glfwPollEvents();
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);//sets GL_COLOR_BUFFER_BIT
         glClear(GL_COLOR_BUFFER_BIT); //clears the screen
@@ -60,6 +63,8 @@ int main()
         glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
         
         glfwSwapBuffers(window);
+
+       
     }
 
     return 0;
