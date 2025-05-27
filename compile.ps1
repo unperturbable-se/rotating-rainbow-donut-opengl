@@ -1,3 +1,5 @@
+#builds the project along with it's dependencies.(only required to do the first time)
+
 Remove-Item build -Recurse -Force
 mkdir build
 Set-Location build

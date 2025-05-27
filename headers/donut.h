@@ -21,8 +21,7 @@ namespace custom {
         std::vector<unsigned int> indices;
     public:    
 
-        // Inline generateTorus defined below
-        void generateTorus(
+     inline void generateTorus(
             unsigned int segments,
             unsigned int rings,
             float majorRadius,

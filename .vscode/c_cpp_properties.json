@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/Raedo/Documents/dev/compilers/opengl/**" // path to glad, glfw,glm
+                "<>" //insert path to glad, glfw,glm
             ],
             "defines": [
                 "_DEBUG",

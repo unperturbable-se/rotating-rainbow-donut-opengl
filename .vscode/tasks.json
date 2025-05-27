@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "c:\\Users\\Raedo\\Documents\\dev\\compilers\\MYSYS\\ucrt64\\bin\\g++.exe", // path to g++.exe
+            "command": "<>", // insert path to g++.exe
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -12,7 +12,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "c:\\Users\\Raedo\\Documents\\dev\\compilers\\MYSYS\\ucrt64\\bin" // path to g++.exe
+                "cwd": "<>" // insert path to g++.exe
             },
             "problemMatcher": [
                 "$gcc"
