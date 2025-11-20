@@ -1,1 +1,0 @@
- C:/Users/Raedo/Documents/dev/compilers/opengl/glfw/lib/libglfw3.a C:/Users/Raedo/Documents/dev/compilers/opengl/glm/lib/libglm.a -lopengl32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
