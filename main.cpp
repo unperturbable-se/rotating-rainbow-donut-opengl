@@ -47,7 +47,7 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {
-        FrameLimiter(25); //20fps speed
+        FrameLimiter(25); //25fps speed
         glfwPollEvents();
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);//sets GL_COLOR_BUFFER_BIT
         glClear(GL_COLOR_BUFFER_BIT); //clears the screen

@@ -12,7 +12,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "<>" // insert path to g++.exe
+                "cwd": "C:/Users/Raedo/Documents/dev/compilers/MYSYS/ucrt64/bin/g++.exe" // insert path to g++.exe
             },
             "problemMatcher": [
                 "$gcc"

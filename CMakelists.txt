@@ -5,20 +5,20 @@ project(openglcompile C CXX)
 # Add executable
 add_executable(openglcompile
     main.cpp
-    "<>" #path to glad.c
+    "" #path to glad.c
 )
 
 # Include directories
 target_include_directories(openglcompile BEFORE PUBLIC
-    "<>"   #path to glad.h
-    "<>"   #path to glfw.h
-    "<>"    #path to glm.h
-    "<>" #project_path/headers
+    ""   #path to glad.h
+    ""   #path to glfw.h
+    ""    #path to glm.h
+    "" #project_path/headers
 )
 
 # Link libraries
 target_link_libraries(openglcompile
-    "<>" #path to glfw/lib/libglfw3.a
-    "<>"    #path to glm/lib/libglm.a
+    "" #path to glfw/lib/libglfw3.a
+    ""    #path to glm/lib/libglm.a
     opengl32 
 )
